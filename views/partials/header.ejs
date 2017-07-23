@@ -23,9 +23,6 @@
             <% } else if (currentUser.facebook.name) { %>
                   <li><a href="#">User Facebook: <%= currentUser.facebook.name %></a></li>
                   <li><a href="/logout">Logout</a></li>
-            <% } else if (currentUser.username) { %>
-                  <li><a href="#">User Local: <%= currentUser.username %></a></li>
-                  <li><a href="/logout">Logout</a></li>
             <% } %>
             </ul>
           </div>
